@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Title of Website -->
+<title>Pandu Wijaya</title>
+<meta name="description"
+        content="Portfolio Template"/>
+<meta name="author" content="sego">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Color Switcher CSS -->
+<link href="assets/switcher/switcher.css" rel="stylesheet">
+<link href="assets/switcher/style1.css" rel="stylesheet" id="colors">
+
+<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+</head>
+
+<!-- Body Start -->
+<body>
+
+
+<!-- Header Start  -->
+<header>
+<div class="container">
+	<h2 class="logo">PndWjy.</h2>
+  <div id="nav-icon">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+	<div class="social-top">
+		<a class="fb" href="https://www.facebook.com/panduwijaya456"><i class="icon-facebook"></i></a>
+	</div>
+	<ul class="site-menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">About Me</a></li>
+	</ul>
+</div>
+</header>
+<!-- Header End -->
+
+<!-- Home Section Start -->
+<div class="section hero parallax" id="home" style="background-image:url(assets/images/vector.gif);" data-stellar-background-ratio="0.5">
+   <div class="content">
+    <div class="dta">
+    <div class="container"> 
+        <h2>Pandu Wijaya</h2>
+        <h3>from Jakarta</h3>
+    </div>
+   </div>
+  </div>
+  <div class="doWn"><span></span></div>
+</div>
+<!-- Home Section End -->
+
+<!-- About Section Start -->
+<div class="about section" id="about">
+<div class="container">
+<!-- Profile Start -->
+ <div class="row">
+ <div class="col-md-7 about-left">
+ <h2 class="head">About Me</h2>
+ <h3 class="sub-head">Always strive for better work</h3>
+ <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+ <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+ </div>
+ <div class="col-md-5">
+ <img class="img-responsive" src="assets/images/2.jpeg" alt="personal">
+ </div>
+ </div>
+
+ <!-- Profile Start -->
+ <div class="row team">
+ <div class="col-md-6 col-sm-12 about-left">
+ <h2 class="head h4 padding-top">My Skills</h2>
+  <div class="skillbar" data-percent="98%">
+  <div class="skillbar-title"><span>HTML5 & CSS3</span></div>
+  <div class="skillbar-bar"></div>
+  <div class="skill-bar-percent">98%</div>
+  </div>
+
+  <div class="skillbar" data-percent="85%">
+  <div class="skillbar-title"><span>jQuery</span></div>
+  <div class="skillbar-bar"></div>
+  <div class="skill-bar-percent">85%</div>
+  </div>
+
+  <div class="skillbar" data-percent="60%">
+  <div class="skillbar-title"><span>PHP</span></div>
+  <div class="skillbar-bar"></div>
+  <div class="skill-bar-percent">60%</div>
+  </div>
+
+  <div class="skillbar" data-percent="92%">
+  <div class="skillbar-title"><span>Codeigniter</span></div>
+  <div class="skillbar-bar"></div>
+  <div class="skill-bar-percent">80%</div>
+  </div>
+  <div class="skillbar" data-percent="92%">
+  <div class="skillbar-title"><span>Laravel</span></div>
+  <div class="skillbar-bar"></div>
+  <div class="skill-bar-percent">75%</div>
+  </div>
+
+
+ </div>
+ <div class="col-md-6 col-sm-12 work-ex"> 
+  <h2 class="head h4 padding-top">My Project</h2>
+ <div class="col-sm-6">
+   <div class="item">
+     <h4>IKERETA</h4>
+     <span>Website Pemesanan Tiket Kereta</span>
+   </div>
+ </div>
+
+  <div class="col-sm-6">
+   <div class="item">
+     <h4>Weshop</h4>
+   <span>Website Toko Online</span>
+   </div>
+ </div>
+
+  <div class="col-sm-6">
+   <div class="item">
+     <h4>SEKOLAHKU</h4>
+     <span>Website Sekolah Dan Arsip Siswa Nakal</span>
+   </div>
+ </div>
+
+  <div class="col-sm-6">
+   <div class="item item-ku">
+     <h4>Wedding</h4>
+     <span>Website Undangan Pernikahan Digital</span>
+   </div>
+ </div>
+ </div>
+</div>
+</div>
+</div>
+ 
+
+<!-- Footer Section Start -->
+<footer class="footer">
+<div class="back-top"></div>
+  <div class="container">
+   <p>© PanduWijaya <?php echo date('Y'); ?> All rights reserved.</p>
+  </div>
+</footer>
+<!-- Footer Section End -->
+
+
+<!-- Scripts --> 
+<!-- jQuery --> 
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/vendor/jquery.easing-1.3.pack.js"></script> 
+<!-- Pace --> 
+<script src="assets/js/plugins/pace.min.js"></script> 
+<!-- Bootsrap core --> 
+<script src="assets/js/plugins/bootstrap.min.js"></script> 
+<!-- Plugins --> 
+<script src="assets/js/plugins/jquery.smooth-scroll.min.js"></script> 
+<script src="assets/js/plugins/jquery.waypoints.min.js"></script> 
+<script src="assets/js/plugins/device-detect.js"></script> 
+<script src="assets/js/plugins/owl.carousel.js"></script> 
+<script src="assets/js/plugins/jquery.stellar.min.js"></script> 
+<script src="assets/js/plugins/jquery.magnific-popup.min.js"></script> 
+<script src="assets/js/plugins/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="assets/contact-form/js/validator.min.js"></script> 
+<script type="text/javascript" src="assets/contact-form/js/form-scripts.js"></script> 
+<!-- Color Switcher -->
+<script src="assets/switcher/switcher.js"></script>
+</body>
+
+</html>
